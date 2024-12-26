@@ -1,0 +1,10 @@
+create user c##building_management_system identified by "management_system@123";
+grant dba to c##building_management_system;
+grant create table to c##building_management_system;
+grant connect to c##building_management_system;
+grant create view to c##building_management_system;
+grant drop any table to c##building_management_system;
+grant create procedure to c##building_management_system;
+grant EXECUTE ANY PROCEDURE to c##building_management_system;
+grant INSERT ANY TABLE,  SELECT ANY TABLE to c##building_management_system;
+grant UPDATE ANY TABLE,DELETE ANY TABLE,ALTER DATABASE,BACKUP ANY TABLE,CREATE SYNONYM to c##building_management_system;
