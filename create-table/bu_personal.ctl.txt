@@ -1,0 +1,28 @@
+LOAD DATA
+INFILE 'C:\Users\armin1992\Music\MiladTask\oracleDBMilad\building_management_system\insert-into-sqlloader\file-1.txt'
+INTO TABLE bu_personal
+FIELDS TERMINATED BY '|' OPTIONALLY ENCLOSED BY '"'
+(
+    bu_first_name,
+    bu_last_name,
+    bu_father_name,
+    bu_birth_city,
+    bu_address,
+    bu_city,
+    bu_national_code,
+    bu_birth_certificate_no,
+    bu_postal_code,
+    bu_meter_number,
+    bu_region,
+    bu_crimintal_record_status,
+    bu_addiction_status,
+    bu_marital_status,
+    bu_military_status,
+    bu_driving_license_status,
+    bu_created_name,
+    bu_created_date DATE "YYYY-MM-DD",
+    bu_updated_name,
+    bu_updated_date DATE "YYYY-MM-DD",
+    bu_birth_day DATE "YYYY-MM-DD",
+    bu_nationality
+)
